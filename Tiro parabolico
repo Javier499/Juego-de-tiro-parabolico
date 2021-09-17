@@ -59,7 +59,7 @@ def move():
         target.x -= 0.5
 
     if inside(ball):
-        speed.y -= 0.35
+        speed.y -= 0.70
         ball.move(speed)
 
     dupe = targets.copy()
